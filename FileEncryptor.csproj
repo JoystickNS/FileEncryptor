@@ -11,17 +11,4 @@
         <ApplicationIcon>Assets\AppIcon.ico</ApplicationIcon>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Compile Remove="Uninstaller\**" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <EmbeddedResource Remove="Uninstaller\**" />
-      <None Remove="Uninstaller.exe" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="Uninstaller\**" />
-    </ItemGroup>
-
 </Project>
